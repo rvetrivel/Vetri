@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:weightSum="1">
+    <!-- <include
+         android:id="@+id/tool_bar"
+         layout="@layout/tool_bar2"
+         ></include>-->
+    <include layout="@layout/header_ps" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="15dip"
+        android:paddingTop="5dip"
+        android:weightSum="1">
+        <!--<TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01:00"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0.27" />-->
+        <ImageView
+            android:id="@+id/timeline"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="fill_parent"
+            android:layout_height="71dp"
+            android:textColor="#0066A1"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.96"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_above="@id/footer"
+                android:paddingBottom="5dip"
+                android:weightSum="1"
+                android:layout_weight="1.11">
+                <LinearLayout
+                    android:id="@+id/mediaplayer"
+                    android:orientation="horizontal"
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/pause"
+                        android:background="@null"
+                        android:src="@drawable/play_icon"
+                        android:layout_width="wrap_content"
+                        android:onClick="pause"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="5dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/choose"
+                    android:layout_width="680dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1">
+                        <ImageView
+                            android:background="@drawable/corner_match_bg_top"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.09"></ImageView>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:background="@drawable/rounded_corner"
+                            android:layout_width="550sp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/but1ps">
+                        <Button
+                            android:id="@+id/answer1"
+                            android:layout_width="480sp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:textAllCaps="false"
+                            android:onClick="onClick1"
+                            android:background="@drawable/rounded_corner"
+                            android:gravity="center"
+                            android:layout_gravity="center"
+                            android:textSize="25dp" />
+                            <ImageView
+                                android:id="@+id/chc1"
+                                android:src="@drawable/correct_button"
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_gravity="center" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:background="@drawable/rounded_corner"
+                            android:layout_width="550sp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/but2ps"
+                            android:layout_marginTop="8sp">
+                        <Button
+                            android:id="@+id/answer2"
+                            android:layout_width="480sp"
+                            android:layout_height="wrap_content"
+                            android:textColor="#fff"
+                            android:background="@drawable/rounded_corner"
+                            android:gravity="center"
+                            android:onClick="onClick2"
+                            android:textAllCaps="false"
+                            android:layout_gravity="center"
+                            android:textSize="25dp" />
+                            <ImageView
+                                android:id="@+id/chc2"
+                                android:src="@drawable/correct_button"
+                                android:layout_width="50sp"
+                                android:layout_height="50sp" />
+                            </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:background="@drawable/rounded_corner"
+                            android:layout_width="550sp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/but3ps"
+                            android:layout_marginTop="8sp">
+                        <Button
+                            android:id="@+id/answer3"
+                            android:layout_width="480sp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_corner"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:textAllCaps="false"
+                            android:onClick="onClick3"
+                            android:layout_gravity="center"
+                            android:textSize="25dp"
+                            /><ImageView
+                            android:id="@+id/chc3"
+                            android:src="@drawable/correct_button"
+                            android:layout_width="50sp"
+                            android:layout_height="50sp"
+                            android:layout_gravity="center" />
+
+</LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:background="@drawable/rounded_corner"
+                            android:layout_width="550sp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/but4ps"
+                            android:layout_marginTop="8sp">
+                        <Button
+                            android:id="@+id/answer4"
+                            android:layout_width="480sp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_corner"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:onClick="onClick4"
+                            android:textAllCaps="false"
+                            android:textSize="25dp"
+                            android:layout_gravity="center"
+                            />
+                            <ImageView
+                                android:id="@+id/chc4"
+                                android:src="@drawable/correct_button"
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_gravity="center" />
+</LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:background="@drawable/rounded_corner"
+                            android:layout_width="550sp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:id="@+id/but5ps"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="8sp">
+                        <Button
+                            android:id="@+id/answer5"
+                            android:layout_width="480sp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/rounded_corner"
+                            android:textColor="#fff"
+                            android:gravity="center"
+                            android:onClick="onClick5"
+                            android:textAllCaps="false"
+                            android:textSize="25dp"
+                            android:layout_gravity="center" />
+                            <ImageView
+                                android:id="@+id/chc5"
+                                android:src="@drawable/correct_button"
+                                android:layout_width="50sp"
+                                android:layout_height="50sp"
+                                android:layout_gravity="center" />
+                            </LinearLayout>
+                        <ImageView
+                            android:background="@drawable/corner_match_bg_bottom"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"></ImageView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+    <include layout="@layout/footer"
+        android:layout_height="78dp" />
+
+
+</LinearLayout>

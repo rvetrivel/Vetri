@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+
+    <TextView
+        android:visibility="gone"
+        android:text="Notification"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="#0066A1"
+        />
+	<!-- Main ListView 
+		 Always give id value as list(@android:id/list)
+	-->
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

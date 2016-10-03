@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق المصرف للموارد البشرية
+</string>
+    <!--Language page-->
+    <string name="areyou">هل أنت متأكد بأنك ترغب بتسجيل الخروج ؟
+</string>
+    <string name="ok">موافق
+</string>
+    <string name="cancel">إلغاء
+</string>
+    <!--Login page-->
+    <string name="Welcome">مرحباً
+</string>
+    <string name="user_login">تسجيل دخول المستخدم
+</string>
+    <string name="hint_email">اسم المستخدم
+</string>
+    <string name="hint_password">  كلمة السر
+</string>
+    <string name="remember">تذكرني على هذا الجهااز
+</string>
+    <string name="btn_login">تسجيل الدخول
+</string>
+    <string name="loggin">يتم تسجيل الدخول
+</string>
+    <string name="plzent">الرجاء إدخال البريد الإلكتروني وكلمة السر
+</string>
+    <string name="lginsucc">تم تسجيل دحولك بنجاح
+</string>
+  <string name="sure1">قمت بتسجيل الدخول بالفعل في جهاز آخر، الرجاء انقر فوق موافق للدخول في هذا الجهاز أو انقر فوق إلغاء الأمر لإغلاقه.</string>
+    <!-- <string name="nonetwork">Connectivity issue or no internet connection. Please check your mobile data or wifi and try again later!</string>-->
+    <string name="network">لديك مشكلة بالإتصال أو  انك غير متصل بشبكة الإنترنت ،الرجاء التأكد من بيانات التجوال بجهازك أو شبكة الواي فاي
+</string>
+    <string name="retry">يرجى إعادة المحاولة
+</string>
+    <string name="close">إغلاق
+</string>
+
+    <!--Menu page-->
+    <string name="home">الرئيسية
+</string>
+    <string name="guide">التعليمات
+</string>
+    <string name="notifications">الإشعارات
+</string>
+    <string name="activities">الأنشطة
+</string>
+    <string name="scoreb">النتائج
+</string>
+    <string name="language">اللغة
+</string>
+    <string name="profile">الملف الشخصي
+</string>
+    <string name="logout1">تسجيل الخروج
+</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+
+    <!--category page-->
+
+    <string name="topic1">معلومات عامة
+</string>
+    <string name="topic2">المهارات الحسابية
+</string>
+    <string name="tpoic3">التفكير المنطقي
+</string>
+    <string name="topic4">قواعد اللغة الإنجليزية
+</string>
+    <string name="topic5">المهارات الأساسية للحاسب الآلي
+</string>
+    <string name="topic6">إختبار تحليل الشخصية
+</string>
+    <string name="starttime">وقت البدء
+</string>
+    <string name="endtime"> وقت الإنتهاء
+</string>
+    <string name="startt">وقت البدء
+</string>
+    <string name="endti">وقت الإنتهاء
+</string>
+    <string name="inst">التعليمات
+</string>
+    <string name="wait">الرجاء الإنتظار
+</string>
+    <string name="notchecked">الرجاء تحديد خانة الإختيار
+</string>
+    <string name="download">جاري تحميل الإختبار
+</string>
+    <string name="start">إبدأ
+</string>
+    <string name="pleaseselect">الرجاء تحديد إختيار واحد  للإستمرار
+</string>
+    <string name="pleaseselcetspiner">الرجاء تحديد جميع الإختيارات للإستمرار
+</string>
+    <string name="filloption">الرجاء تحديد إختيار واحد  للإستمرار
+</string>
+    <string name="end">انتهت أسألة الإختبار
+</string>
+    <string name="youcompleted">لقد قمت بالإنتهاء بنجاح
+</string>
+    <string name="check"> اختبار.يرجى التحقق من الجدول الزمني لمعرفة موعد التقييم المقبل.
+</string>
+    <string name="submit">تسليم
+</string>
+    <string name="change">لقد تم تغيير موعد التقييم
+</string>
+    <string name="timeupresponce">انتهى الوقت!
+</string>
+    <string name="tim">الوقت المتبقي
+</string>
+    <string name="result">النتائج
+</string>
+    <string name="psychometric">تحليل الشخصية
+</string>
+
+    <string name="correct">الإجابة صحيحة
+</string>
+    <string name="wrong">الإجابة خاطئة
+</string>
+    <string name="timeup">انتهى الوقت!
+</string>
+    <string name="accuracy">الدقة
+</string>
+    <string name="psystring">لقد أكملت بنجاح اإختبار تحليل الشخصية،الرجاء التحقق من الجدول الزمني لمعرفة موعد التقييم المقبل.
+</string>
+    <string name="date">التاريخ
+</string>
+    <string name="date1">التاريخ</string>
+    <string name="name">الإسم
+</string>
+    <string name="gend">الجنس
+</string>
+    <string name="usco">رمز المستخدم
+</string>
+    <string name="dob">تاريخ الميلاد
+</string>
+    <string name="personalem">البريد الإلكتروني الخاص
+</string>
+    <string name="commem">البريد الإلكتروني المستخدم للتواصل
+</string>
+    <string name="mobph">الهاتف المحمول
+</string>
+    <string name="addr">العنوان
+</string>
+
+
+    <string name="levelsc">نتيجة الإختبار
+</string>
+    <string name="second">ثواني
+</string>
+    <string name="gohome">العودة للرئيسية
+</string>
+    <string name="back">تراجع
+</string>
+    <string name="personality">نمط شخصيتك هو
+</string>
+    <string name="accuracyse">الدقة
+</string>
+    <string name="invalid">اسم المستخدم أو كلمة السر خطأ
+</string>
+    <string name="plz">الرجاء الإنتظار
+</string>
+    <string name="lodingsrc">جاري تحميل النتائج
+</string>
+    <string name="lodingacti">جارى تحميل
+</string>
+    <string name="notification">الإشعارات
+</string>
+    <string name="pressback">إضغط تراجع مرة أخرى للخروج
+</string>
+    <string name="read">لقد قمت بقراءة وفهم التعليمات
+</string>
+    <string name="scoreboard">ليس لديك نتائج جديدة
+</string>
+    <string name="noactivity">ليس لديك نشاطات جديدة
+</string>
+    <string name="sec">ثانية
+</string>
+    <string name="next">التالي
+</string>
+    <string name="sure">هل أنت متأكد بأنك ترغب بتسجيل الخروج ؟
+</string>
+    <string name="logout">تسجيل الخروج
+</string>
+
+    <string name="already">لقد قمت بتقديم هذا الإختبار مسبقاً
+</string>
+
+    <string name="spinner_title">إختر الفئة
+</string>
+    <!---gcm-->
+    <string name="error_config">يرجى تعيين ٪ 1 $ الصورة ثابتة و إعادة ترجمة التطبيق.</string>
+    <string name="already_registered">و سجلت بالفعل الجهاز.</string>
+    <string name="gcm_registered">من GCM : جهاز تسجيل بنجاح !</string>
+    <string name="gcm_unregistered">من GCM : الجهاز غير مسجلة بنجاح !</string>
+    <string name="gcm_error">من GCM : خطأ ( ٪ 1 $ ق).</string>
+    <string name="gcm_recoverable_error">من GCM : خطأ للاسترداد ( ٪ 1 $ ق).</string>
+    <string name="gcm_deleted">من GCM : الخادم حذف ٪ 1 $ D معلقة الرسائل!</string>
+    <string name="server_registering">محاولة ( محاولة ٪ 1 $ د / ٪ 2 $ د ) لتسجيل الجهاز على خادم تجريبي .</string>
+    <string name="server_registered">من خادم التجريبي : أدرجت بنجاح الجهاز !</string>
+    <string name="server_unregistered">من خادم التجريبية بنجاح إزالة الجهاز !</string>
+    <string name="server_register_error">لا يمكن تسجيل الجهاز تجريبي Server بعد محاولات ٪ 1 $ د .</string>
+    <string name="server_unregister_error">لا يمكن إلغاء تسجيل الجهاز على خادم تجريبي ( ٪ 1 $ ق ) المحاولات.</string>
+
+    <!---need to change-->
+    <string name="server">لا يمكن الاتصال بالسيرفر . يرجى إعادة المحاولة بعد قليل.</string>
+
+
+    <string name="duration">المدة
+</string>
+
+    <string name="sucses">لقد تم تسجيل الخروج بنجاح
+</string>
+
+</resources>

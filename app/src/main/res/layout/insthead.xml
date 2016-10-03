@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/list_background"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/list_background">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="175dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+<ImageView
+    android:src="@drawable/instruction"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10sp" />
+        <com.qib.qibhr1.Font
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/inst"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:id="@+id/toolbartitle"
+            android:gravity="center"
+            android:layout_gravity="center" />
+            </LinearLayout>
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="90sp">
+
+            <ImageView
+                android:layout_width="127dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/qib_logo" />
+        </LinearLayout>-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="50sp"
+            android:layout_gravity="center"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_width="129dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/qib_logo" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

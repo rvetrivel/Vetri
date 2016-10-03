@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/bg_list"
+    android:background ="@drawable/drawer_list_selection">
+    <ImageView
+        android:id="@+id/imghead"
+        android:src="@drawable/home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:paddingLeft="5dp"
+        android:layout_marginLeft="5dp"
+        />
+
+    <com.qib.qibhr1.Font
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="sample"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textColor="@color/white"
+        android:paddingTop="4dp"
+        android:layout_marginLeft="5sp"
+        />
+   <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/downarrow"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/expandableHeaderIcon"
+        />
+</RelativeLayout>

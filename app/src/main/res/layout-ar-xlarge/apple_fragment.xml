@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp">
+            <TextView
+                android:id="@+id/noactivities"
+                android:text="@string/noactivity"
+                android:layout_width="629dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:textSize="30dp"
+                android:gravity="center" />
+            <LinearLayout
+                android:id="@+id/gendral"
+                android:orientation="vertical"
+                android:layout_width="804dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:weightSum="1">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_cornerscore"
+                    android:layout_width="726dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:weightSum="1"
+                    android:id="@+id/General_Knowledgenormal">
+                    <TextView
+                        android:id="@+id/gkn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="35dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#fff"
+                        android:text="@string/topic1" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="50dp">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/start"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="26/10/2016"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+
+                            <com.qib.qibhr1.Font
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp"
+                                android:text="@string/date" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/stime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="10:00:00"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/startt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/etime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/endti"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/duration1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+
+                            <com.qib.qibhr1.Font
+                                android:text="@string/duration"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/numerical"
+                android:orientation="vertical"
+                android:layout_width="804dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_cornerscore1"
+                    android:layout_width="726dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.07"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:weightSum="1"
+                    android:baselineAligned="false"
+                    android:id="@+id/Numerical_Abilitynor">
+                    <TextView
+                        android:id="@+id/numericalab"
+                        android:text="@string/topic2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="35dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.90"
+                        android:gravity="right"
+                        android:layout_marginRight="50dp">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/start1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="26/10/2016"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/date"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/stime1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="10:00:00"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/startt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/etime1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/endti"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/duration2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/duration"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Logical"
+                android:orientation="vertical"
+                android:layout_width="804dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_cornerscore2"
+                    android:layout_width="726dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:weightSum="1"
+                    android:baselineAligned="false"
+                    android:id="@+id/Logical_Reasoningnor">
+                    <TextView
+                        android:id="@+id/logicalre"
+                        android:text="@string/tpoic3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="35dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.05"
+                        android:gravity="right"
+                        android:layout_marginRight="50dp">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/start2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="26/10/2016"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/date"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/stime2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="10:00:00"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/startt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/etime2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/endti"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/duration3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/duration"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/English"
+                android:orientation="vertical"
+                android:layout_width="804dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_cornerscore3"
+                    android:layout_width="726dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:weightSum="1"
+                    android:baselineAligned="false"
+                    android:id="@+id/English_Communicationnor">
+                    <TextView
+                        android:id="@+id/english"
+                        android:text="@string/topic4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="35dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.05"
+                        android:layout_marginLeft="50dp"
+                        android:gravity="right"
+                        android:layout_marginRight="50dp">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/start3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="26/10/2016"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/date"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/stime3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="10:00:00"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/startt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/etime3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/endti"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/duration4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/duration"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/computerskil"
+                android:orientation="vertical"
+                android:layout_width="804dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_corner4"
+                    android:layout_width="726dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.07"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:weightSum="1"
+                    android:baselineAligned="false"
+                    android:id="@+id/Basic_Computer_Skillsnor">
+                    <TextView
+                        android:id="@+id/computer"
+                        android:text="@string/topic5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="35dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:layout_marginRight="50dp">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/start4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="26/10/2016"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/date"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/stime4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="10:00:00"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/startt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/etime4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/endti"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/duration5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/duration"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/psy"
+                android:orientation="vertical"
+                android:layout_width="804dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@drawable/rounded_cornerscore5"
+                    android:layout_width="726dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.07"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:weightSum="1"
+                    android:baselineAligned="false"
+                    android:focusableInTouchMode="false"
+                    android:id="@+id/Psychometric_Quiz">
+                    <TextView
+                        android:id="@+id/psychometric"
+                        android:text="@string/topic6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textSize="35dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#fff" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:weightSum="1"
+                    android:layout_marginRight="50dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.14"
+                        android:gravity="right">
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/start5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="26/10/2016"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:paddingTop="5dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/date"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/stime5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="10:00:00"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|left"
+                                android:paddingTop="5dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/startt"
+                                android:layout_width="160dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textColor="@color/black"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/etime5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="5dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/endti"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.qib.qibhr1.Font
+                                android:id="@+id/duration6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:layout_gravity="center"
+                                android:text="10:20:00"
+                                android:textSize="25dp"
+                                android:paddingRight="10dp"
+                                android:paddingTop="5dp" />
+                            <TextView
+                                android:text=":"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:paddingTop="15dp" />
+                            <com.qib.qibhr1.Font
+                                android:text="@string/duration"
+                                android:layout_width="160dp"
+                                android:textColor="@color/black"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|right"
+                                android:textSize="25dp"
+                                android:gravity="center|right"
+                                android:paddingRight="10dp"
+                                android:paddingTop="15dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:paddingBottom="25dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <CheckBox
+                android:button="@drawable/customdrawablecheckbox"
+                android:id="@+id/read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#7b808080" />
+            <com.qib.qibhr1.Font
+                android:id="@+id/readandunderstood"
+                android:text="@string/read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:textSize="30dp"
+                android:textColor="#000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+    <!--<Button
+        android:id="@+id/back"
+        android:text="@string/back"
+        android:background="@drawable/rounded_cornerscore1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="#fff"
+        android:textSize="30dp" />-->
+    <Button
+        android:id="@+id/start"
+        android:text="@string/next"
+        android:background="@drawable/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="32dp"
+        android:paddingRight="25sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

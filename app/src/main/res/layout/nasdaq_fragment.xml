@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="false"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/EN001"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:background="@drawable/general1"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/EN001_Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="0.13"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/EN001_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN001_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN001_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN001_stime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN001_etime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="117dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/EN001_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/EN002"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:background="@drawable/numerical2"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/EN002_Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="0.13"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/EN002_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN002_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN002_end"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN002_stime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN002_etime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="117dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/EN002_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/EN003"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:background="@drawable/logical3"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/EN003_Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="0.13"
+                android:textIsSelectable="false"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/EN003_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN003_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN003_end"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN003_stime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN003_etime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="117dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/EN003_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/EN004"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:background="@drawable/eng4"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/EN004_Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="0.13"
+                android:gravity="center"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/EN004_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN004_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN004_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN004_stime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN004_etime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="117dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/EN004_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/EN005"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:background="@drawable/basic_comp5"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/EN005_Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="0.13"
+                android:layout_gravity="center"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/EN005_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:paddingRight="10dp"
+                android:layout_marginTop="10dp" />
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN005_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN005_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN005_stime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN005_etime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/EN005_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/EN006"
+            android:layout_width="250dp"
+            android:layout_height="208dp"
+            android:background="@drawable/psyho6"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/EN006_Tittle"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:layout_weight="0.13"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/EN006_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:paddingRight="20dp"
+                android:visibility="gone" />
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN006_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:id="@+id/EN006_end"
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="107dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.35">
+                <TextView
+                    android:id="@+id/EN006_stime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/EN006_etime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+
+                    android:textSize="15dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="117dp" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/EN006_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QIB HR Test</string>
+
+
+    <!--Language page-->
+    <string name="pleaseselectlan">Please Select Your Language</string>
+    <string name="areyou">Are You Sure you Want to Exit?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <!--Login page-->
+    <string name="Welcome"> Welcome</string>
+    <string name="user_login"> User Login</string>
+    <string name="hint_email"> Username</string>
+    <string name="hint_password">  Password</string>
+    <string name="remember"> Remember me on this device</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="loggin">Logging in...</string>
+    <string name="plzent">Please enter your Email Id and password</string>
+    <string name="lginsucc">Login Successful.</string>
+    <string name="sure1">Already logged in another device, Please click ok to login in this device or click cancel to close.
+</string>
+   <!-- <string name="nonetwork">Connectivity issue or no internet connection. Please check your mobile data or wifi and try again later!</string>-->
+    <string name="network">Connectivity issue or no internet connection. Please check your mobile data or wifi and try again later.</string>
+    <string name="retry">Re-try</string>
+    <string name="close">Close</string>
+    <string name="server">Cannot connect to server . Please try after sometime.</string>
+
+    <!---gcm-->
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+    <!--Menu page-->
+    <string name="home">Home</string>
+    <string name="guide">Guide</string>
+    <string name="notifications">Notifications</string>
+    <string name="activities">Activities</string>
+    <string name="scoreb">Scoreboard</string>
+    <string name="language">Language</string>
+    <string name="profile">Profile</string>
+    <string name="logout1">Logout</string>
+    <string name="english">English</string>
+    <string name="arabic">العربية</string>
+
+<!--category page-->
+
+    <string name="topic1">General Knowledge</string>
+    <string name="topic2">Numerical Ability</string>
+    <string name="tpoic3">Logical Reasoning</string>
+    <string name="topic4">English Communication</string>
+    <string name="topic5">Basic Computer Skills</string>
+    <string name="topic6">Psychometric Quiz</string>
+    <string name="starttime"> Start Time</string>
+    <string name="endtime"> End Time</string>
+    <string name="startt">Start Time</string>
+    <string name="endti">End Time</string>
+    <string name="inst">Instructions</string>
+    <string name="wait">Wait....</string>
+    <string name="notchecked">Please select the Checkbox.</string>
+    <string name="download">Downloading Quiz</string>
+    <string name="start">Start</string>
+    <string name="pleaseselect">Please select one option to proceed!</string>
+    <string name="pleaseselcetspiner">Please select all option to proceed!</string>
+    <string name="checkboxselect">Please select one option to proceed checkbox!</string>
+    <string name="filloption">Please fill the any one option to proceed!</string>
+    <string name="end">End of Quiz Questions.</string>
+    <string name="youcompleted">You have successfully completed </string>
+    <string name="check"> test. Check schedule for next assessment.</string>
+    <string name="submit">Submit</string>
+    <string name="change">Your schedule has changed.</string>
+    <string name="timeupresponce">Time Up! Your response will be submitted.</string>
+    <string name="tim">Time Remaining</string>
+    <string name="result">Results</string>
+    <string name="psychometric">Psychometric</string>
+
+    <string name="correct">Correct Answer</string>
+    <string name="wrong">Wrong Answer</string>
+    <string name="timeup">Time Up!</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="psystring">You have successfully completed Psychometric test. Check schedule for next assessment.</string>
+    <string name="date">Date</string>
+
+    <string name="name">Name</string>
+    <string name="gend">Gender</string>
+    <string name="usco">User Code</string>
+    <string name="dob">DOB</string>
+
+    <string name="personalem">Secondary Email</string><!--need to change arabic-->
+    <string name="commem">Email</string>
+
+
+    <string name="mobph">Mobile Phone</string>
+    <string name="addr">Address</string>
+
+
+    <string name="levelsc">Score</string>
+    <string name="second">Seconds</string>
+    <string name="gohome">Go Home</string>
+    <string name="back">Back</string>
+    <string name="personality">YOUR PERSONALITY TYPE IS:</string>
+    <string name="accuracyse">Accuracy %</string>
+    <string name="invalid">Invalid Username or Password</string>
+    <string name="plz">Please wait...</string>
+    <string name="lodingsrc">Loading Scoreboard...</string>
+    <string name="lodingacti">Loading your Activity...</string>
+    <string name="notification">Notifications</string>
+    <string name="pressback">Press back again to exit</string>
+    <string name="read">Read and understood Instructions</string>
+    <string name="scoreboard">There is no Scoreboard.</string>
+    <string name="noactivity">There is no Activities.</string>
+    <string name="noinstruction">There is no Guide.</string>
+    <string name="sec">Sec</string>
+    <string name="next">Next</string>
+    <string name="sure"> Are you sure you want to logout?</string>
+    <string name="logout"> LOGOUT</string>
+    <string name="already"> You have already attended this test.</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="date1">Date:</string>
+
+    <string name="duration">Duration</string>
+    <string name="sucses"> successfully logout</string>
+    <string name="developed">Developed by Mannai</string>
+
+    <string name="forget">Forgot your password?</string>
+    <string name="changeyour">Change Password</string>
+
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="star">********</string>
+
+    <string name="err_msg_email">Enter the current Password</string>
+    <!--<string name="passwordnotmatch">Password doesn't match</string>-->
+    <string name="minmum">Minimum 4 character required</string>
+    <string name="uppercase">There Should be At least one Uppercase Latter</string>
+    <string name="lowercase">There Should be At least one Lowercase Latter</string>
+    <string name="neumericletter">There should be At least one Numeric character</string>
+    <string name="secialchared">You cant allow to give any special character</string>
+    <string name="passwordfield">Password field is should not be empty</string>
+    <string name="passwordmatch">Confirm Password does not match with New password</string>
+</resources>

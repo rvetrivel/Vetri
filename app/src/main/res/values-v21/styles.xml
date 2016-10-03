@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme1" parent="android:Theme.Material.Light.Dialog.NoActionBar">
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

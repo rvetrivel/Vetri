@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <!-- Main ListView
+         Always give id value as list(@android:id/list)
+    -->
+    <include layout="@layout/insthead"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:id="@+id/fillth"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        android:layout_weight="0.97">
+    <ListView
+        android:id="@+id/listcat"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_marginBottom="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp">
+
+    <CheckBox
+        android:button="@drawable/customdrawablecheckbox"
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#7b808080" />
+        <com.qib.qibhr1.Font
+            android:id="@+id/readandunderstood"
+            android:text="@string/read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:textSize="18dp"
+            android:textColor="#000" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/fillth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+       <!-- <Button
+            android:id="@+id/back"
+            android:text="@string/back"
+            android:background="@drawable/rounded_cornerscore1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="#fff"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp" />-->
+        <Button
+            android:id="@+id/start"
+            android:text="@string/next"
+            android:background="@drawable/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:paddingRight="20sp" />
+    </LinearLayout>
+</LinearLayout>

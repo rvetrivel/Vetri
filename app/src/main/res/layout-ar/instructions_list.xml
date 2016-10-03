@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:paddingTop="1dp">
+
+        <TableRow
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:textColor="@color/material"
+
+                android:id="@+id/key1"
+                android:text=""
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:textColor="@color/material"
+                android:text=".1"
+                android:id="@+id/no1"
+                android:textSize="18dp"
+                android:gravity="right" />
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:textColor="@color/material"
+
+                android:id="@+id/key2"
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:textColor="@color/material"
+                android:text=".2"
+                android:id="@+id/no2"
+                android:textSize="18dp"
+                android:gravity="right" />
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:textColor="@color/material"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+
+                android:id="@+id/key3"
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:textColor="@color/material"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:text=".3"
+                android:id="@+id/no3"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/material"
+                android:padding="5dp"
+                android:background="#FFF"
+
+                android:id="@+id/key4"
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="@color/material"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:text=".4"
+                android:id="@+id/no4"
+                android:textSize="18dp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/material"
+                android:padding="5dp"
+                android:background="#FFF"
+
+                android:id="@+id/key5"
+                android:textIsSelectable="false"
+                android:textSize="18dp" />
+
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="@color/material"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:text=".5"
+                android:id="@+id/no5"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/material"
+                android:background="#FFF"
+
+                android:id="@+id/key6"
+                android:textSize="18dp"
+                />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:textColor="@color/material"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:text=".6"
+                android:id="@+id/no6"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/material"
+                android:padding="5dp"
+                android:background="#FFF"
+
+                android:id="@+id/key7"
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:textColor="@color/material"
+                android:background="#FFF"
+                android:text=".7"
+                android:id="@+id/no7"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:textColor="@color/material"
+
+                android:id="@+id/key8"
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:textColor="@color/material"
+                android:background="#FFF"
+                android:text=".8"
+                android:id="@+id/no8"
+                android:textSize="18dp" />
+
+        </TableRow>
+        <TableRow
+            android:background="#FFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingRight="1dp"
+            android:layout_gravity="right"
+            android:gravity="right">
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:background="#FFF"
+
+                android:textColor="@color/material"
+                android:id="@+id/key9"
+                android:textSize="18dp" />
+            <com.qib.qibhr1.Font
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:padding="5dp"
+                android:background="#FFF"
+                android:textColor="@color/material"
+                android:text=".9"
+                android:id="@+id/no9"
+                android:textSize="18dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>

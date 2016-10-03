@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyAppTheme" parent="android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+    </style>
+    <style name="Theme.MyAppTheme.ActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:icon">@drawable/transparent</item>
+    </style>
+    <color name="ColorPrimary">#0066A1</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="list_background">#0066A1</color>
+    <color name="list_background_pressed">#1AA2DC</color>
+    <color name="input_login_hint">#ffffff</color>
+    <color name="input_register">#ffffff</color>
+    <color name="user_login">#0066A1</color>
+
+    <color name="input_register_hint">#5e6266</color>
+    <color name="material">#0066A1</color>
+    <color name="tableHead">#003E62</color>
+    <color name="ColorPrimaryDark">#003E62</color>
+    <color name="colorAccent">#c5c4c4</color>
+
+    <color name="brown">#BE8343</color>
+</resources>

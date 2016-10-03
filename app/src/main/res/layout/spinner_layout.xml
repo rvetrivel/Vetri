@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.qib.qibhr1.Font xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+    style="?android:attr/spinnerItemStyle"
+    android:singleLine="false"
+    android:ellipsize="marquee"
+    android:background="#FFA100"
+        android:textSize="25sp"
+        />
